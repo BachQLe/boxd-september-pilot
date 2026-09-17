@@ -128,23 +128,23 @@ const TEAM_MEMBERS: {
     },
     {
       count: '02',
-      name: 'Bach',
-      role: 'Content',
-      bullets: [
-        'Plans shots and films food and people',
-        'Edits short-form content',
-        'Turns each campaign idea into platform-native Reels and Stories',
-      ],
-      funFact: 'Fun fact: add one here',
-    },
-    {
-      count: '03',
       name: 'Jackson',
       role: 'AI & systems',
       bullets: [
         'Organizes footage and campaign data',
         'Extracts hooks and transcripts',
         'Supports workflow automation and measurement structure',
+      ],
+      funFact: 'Fun fact: add one here',
+    },
+    {
+      count: '03',
+      name: 'Bach',
+      role: 'Content',
+      bullets: [
+        'Plans shots and films food and people',
+        'Edits short-form content',
+        'Turns each campaign idea into platform-native Reels and Stories',
       ],
       funFact: 'Fun fact: add one here',
     },
