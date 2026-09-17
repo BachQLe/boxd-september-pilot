@@ -33,24 +33,24 @@ const CAMPAIGN_CARDS: { href: string; n: string; title: string; desc: string; co
   {
     href: '/five-reasons/',
     n: 'Campaign 01 → Site 01',
-    title: 'For the Casual',
-    desc: 'Fast call-outs that make Box’d the obvious next meal.',
+    title: 'Why Box’d',
+    desc: 'Value and reasons to choose Box’d — the straightforward case for making it your next meal.',
     code: 'Offer code · WHYBOXD',
     bg: 'cream',
   },
   {
     href: '/uva-favorite/',
     n: 'Campaign 02 → Site 02',
-    title: 'For the Athlete',
-    desc: 'Students, athletes and regulars turn a restaurant into a campus spot.',
+    title: 'Box’d at UVA',
+    desc: 'Social proof and campus identity — the order regulars and student-athletes already trust.',
     code: 'Offer code · HOOSBOXD',
     bg: 'heat',
   },
   {
     href: '/find-your-box/',
     n: 'Campaign 03 → Site 03',
-    title: 'For the Craver',
-    desc: 'A craveable decision helper that ends in a specific order.',
+    title: 'Pick Your Box',
+    desc: 'Product discovery — a quick decision helper that turns “what should I get” into a specific order.',
     code: 'Offer code · MYBOXD',
     bg: 'acid',
   },
@@ -150,12 +150,12 @@ const TEAM_MEMBERS: {
     },
     {
       count: '04',
-      name: 'Name TBD',
-      role: 'Role TBD',
+      name: 'Nick',
+      role: 'AI & systems',
       bullets: [
-        'Add responsibility here',
-        'Add responsibility here',
-        'Add responsibility here',
+        'Organizes footage and campaign data',
+        'Extracts hooks and transcripts',
+        'Supports workflow automation and measurement structure',
       ],
       funFact: 'Fun fact: add one here',
     },
@@ -275,10 +275,10 @@ export function HubPage() {
             <SectionTitle>
               Three pages.
               <br />
-              For three demographics that don’t know BOX’D yet.
+              Three angles on the same UVA audience.
             </SectionTitle>
             <SectionIntro>
-              Our 3 custom campaigns are designed to pull in the diverse student body at UVA to BOX'd. Below, are three landing pages we built for these target audiences.
+              Our 3 custom campaigns test different messaging angles — value, social proof, and product discovery — on the same UVA audience. Below are the three landing pages we built for each angle.
             </SectionIntro>
           </div>
           <div className="wrap grid grid-cols-3 gap-[18px] pt-1.5 max-tab:grid-cols-1 max-phone:pb-20" aria-label="Campaign landing pages">
